@@ -71,7 +71,7 @@ var stars;
 var score = 12;
 var scoreText;
 
-var timer = 25;
+var timer = 30;
 var timerText;
 
 var movement = false;
@@ -151,7 +151,7 @@ function create() {
     }
     
     scoreText = game.add.text(16, 16, 'Stars left: 12', {fontSize: '32px', fill: 'white' });
-    timerText = game.add.text(650, 16, 'Time: 25',  {fontSize: '32px', fill: 'white' });
+    timerText = game.add.text(650, 16, 'Time: 30',  {fontSize: '32px', fill: 'white' });
     cursors = game.input.keyboard.createCursorKeys();
 }
 
