@@ -213,6 +213,7 @@ function gameOver() {
         game.paused = true;
     }
 }
+gameOver();
 
 var interval = setInterval(function(event) {
     timer -=1;
