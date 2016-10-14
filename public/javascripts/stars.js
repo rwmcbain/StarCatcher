@@ -6,15 +6,15 @@ image1.src = 'url(/assets/starry.jpeg)'
 var image2 = document.createElement('image');
 image2.src = 'url(/assets/starry3.jpg)'
 
-var el = document.querySelector('#begin');
-el.onmouseover = function(event) {
-    var body = document.getElementById('bodies');
-    body.style.backgroundImage = 'url(/assets/starry3.jpg)'
-};
-el.onmouseout = function(event) {
-    var body = document.getElementById('bodies');
-    body.style.backgroundImage = 'url(/assets/starry.jpeg)'
-};
+// var el = document.querySelector('#begin');
+// el.onmouseover = function(event) {
+//     var body = document.getElementById('bodies');
+//     body.style.backgroundImage = 'url(/assets/starry3.jpg)'
+// };
+// el.onmouseout = function(event) {
+//     var body = document.getElementById('bodies');
+//     body.style.backgroundImage = 'url(/assets/starry.jpeg)'
+// };
 //-----------
 
 var audio6 = document.createElement('audio');
