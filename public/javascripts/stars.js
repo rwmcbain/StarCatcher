@@ -206,7 +206,7 @@ function gameOver() {
     }
      else if (score >= 1 && timer <= 0) {
         clearInterval(interval)
-        scoreText.text ='Stars left: ' + score + '                YOU LOS';
+        scoreText.text ='Stars left: ' + score + '                YOU LOSE';
         makeButton();
         audio5.pause();
         audio1.play();
