@@ -213,12 +213,11 @@ function gameOver() {
         game.paused = true;
     }
 }
-gameOver();
 
 var interval = setInterval(function(event) {
+    gameOver();
     timer -=1;
     timerText.text = 'Time: ' + timer;
-    gameOver();
 }, 1000);
 
 function makeButton(){
