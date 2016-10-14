@@ -1,12 +1,29 @@
 # StarCatcher
 
 
+
+
+
+
+### Game Summary
+
+* Star Catcher is a game where you control a character and go around collecting stars before
+the timer runs out(25s). You can replay as many times as you'd like to try to beat your time!
+
+
+### Approach
+
+* I was inspired by the old browser game 'Monkey Maze'. I wanted to create a game that emulated games
+from the 80's with 8bit-ish graphics. I used the Phaser framework to create this game and also used
+vanilla javascript to perform functions outside of Phaser.
+
+
 ### Technical Requirements
 
 Your app must:
 
 * **Render a game in the browser**
-* **Switch turns** between two players
+* **Switch turns** between two players (Game is ONE player only)
 * **Design logic for winning** & **visually display which player won**
 * **Include separate HTML / CSS / JavaScript files**
 * Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
