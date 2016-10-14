@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+#games {
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#games canvas {
+	margin: 0px auto;
+
+}
+#title {
+	background: black;
+	width: 100px;
+	height: 150px;
+}
+
+#wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
