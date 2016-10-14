@@ -8,7 +8,7 @@ Hosted on Heroku - http://star-catcher.herokuapp.com/
 ### Game Summary
 
 * Star Catcher is a game where you control a character and go around collecting stars before
-the timer runs out(25s). You can replay as many times as you'd like to try to beat your time!
+the timer runs out (30s). You can replay as many times as you'd like to try to beat your time!
 
 
 ### Approach
