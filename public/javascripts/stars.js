@@ -196,7 +196,7 @@ function collectStar (player, star) {
 }
 
 function gameOver() {
-     if (score === 0 && timer >= 1) {
+     if (score === 0) {
         clearInterval(interval)
         scoreText.text ='Stars left: ' + score + '                YOU WON'; 
         makeButton();
